@@ -1,0 +1,14 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# macOS / Office
+.DS_Store
+~$*.xlsx
+
+# Raw SEC responses (~160 MB) — re-downloaded by `ba1_pipeline.py` on demand
+out/cache/
+
+# Local backup of the first draft (kept in git history as the first version of ba1_pipeline.py)
+ba1_pipeline.draft.py
